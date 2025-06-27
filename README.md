@@ -2,7 +2,12 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=61F7EF&center=true&vCenter=true&width=435&lines=Hi,+I'm+Pin-Yen!;Welcome+to+my+GitHub!" alt="Typing SVG" />
 </p>
+<!-- 🌌 Space/Cyber GIF Background (optional but cool) -->
+<p align="center">
+  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="600" />
+</p>
 
+---
 <!--
 **PinYenChen/PinYenChen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
