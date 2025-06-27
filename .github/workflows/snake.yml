@@ -11,17 +11,16 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      - name: generate github-contribution-grid-snake.svg
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_dots=#c6f7d4,#c6f7d4,#c6f7d4,#c6f7d4,#c6f7d4
+            dist/github-contribution-grid-snake.svg?color_snake=#5aff5a&color_dots=#ffffff,#a3efb1,#7de78c,#5cd76b,#4bb95a
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
